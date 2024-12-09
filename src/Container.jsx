@@ -45,6 +45,7 @@ const Container = () => {
   }
   function removeCartItem() {
     setInCartItems("");
+    setCount(0);
   }
   return (
     <>
