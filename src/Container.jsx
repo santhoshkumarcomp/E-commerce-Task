@@ -43,6 +43,9 @@ const Container = () => {
     console.log("button clicked");
     document.querySelector(".dropDown").classList.toggle("hidden");
   }
+  function removeCartItem() {
+    setInCartItems("");
+  }
   return (
     <>
       <>
@@ -54,7 +57,7 @@ const Container = () => {
               </span>
             </button>
             <div className=" dropDown hidden absolute text-white rounded z-30 w-72 h-72   bg-slate-400 ">
-              <ItemList title={inCartItems} />
+              <ItemList title={inCartItems} removeCartItem={removeCartItem} />
             </div>
           </div>
         </div>
