@@ -23,7 +23,6 @@ Each product card shows an image, title, price, category, and description.
 Product Details Modal
 
 Clicking on a product opens a modal to display detailed information about the product.
-Add to Cart
 
 Users can add items to the cart with a single click.
 Items are displayed in a dropdown cart menu.
