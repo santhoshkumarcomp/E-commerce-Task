@@ -27,7 +27,7 @@ const EachItem = (props) => {
           alt={props.title}
           className="w-full h-48 object-contain rounded-t-lg"
         />
-        <h1 className="text-lg font-bold text-gray-800 mt-4 line-clamp-2">
+        <h1 className="text-lg font-bold text-gray-800 mt-4 line-clamp-1">
           {props.title}
         </h1>
         <h2 className="text-md font-semibold text-orange-500 mt-2">
