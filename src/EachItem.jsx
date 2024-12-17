@@ -5,7 +5,6 @@ import { useState } from "react";
 import DisplayCard from "./DisplayCard";
 
 const EachItem = (props) => {
-  // console.log(props);
   const [toDisplayCard, setToDisplayCard] = useState(false);
   function handleClick() {
     setToDisplayCard(true);
