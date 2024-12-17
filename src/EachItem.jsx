@@ -10,7 +10,6 @@ const EachItem = (props) => {
     setToDisplayCard(true);
   }
   function fromChild() {
-    console.log("function called");
     setToDisplayCard(false);
   }
   function handleFromEachItem(data) {
